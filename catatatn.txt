@@ -161,6 +161,15 @@ npm install --force
   ssh-add /d/SyarifChatting/windows (namdirektory)
   git remote add origin git@github.com:putrapuices/hello-semantic-u
 i.git
+git init
+git add .
+git commit -m ""
+git push origin main
+
+kalau error silahkan login dlu
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
   atau lainnya
   eval 'ssh-agent -s'
   
