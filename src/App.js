@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import { Button, Container, Divider, Grid } from "semantic-ui-react";
+import { Button, Container, Divider, Flag, Grid } from "semantic-ui-react";
 
 class App extends Component {
   render() {
@@ -47,7 +47,11 @@ class App extends Component {
               Button Ketiga
             </Button>
           </Grid.Column>
-          <Grid.Column>2</Grid.Column>
+          <Grid.Column>
+            <Flag name="id" />
+            <Flag name="indonesia" />
+            <Flag name="palestine" />
+          </Grid.Column>
           <Grid.Column>3</Grid.Column>
           <Grid.Column>4</Grid.Column>
         </Grid>
