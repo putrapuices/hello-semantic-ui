@@ -10,6 +10,7 @@ import {
   Icon,
   Image,
   Input,
+  Label,
 } from "semantic-ui-react";
 
 class App extends Component {
@@ -84,6 +85,7 @@ class App extends Component {
           placeholder="Search"
           icon={<Icon name="search" />}
         />
+        <Label pointing="right">Mesin Pencarian Google</Label>
       </div>
     );
   }
