@@ -7,6 +7,7 @@ import {
   Flag,
   Grid,
   Header,
+  Icon,
   Image,
 } from "semantic-ui-react";
 
@@ -68,6 +69,9 @@ class App extends Component {
           </Grid.Column>
           <Grid.Column>4</Grid.Column>
         </Grid>
+        <Container textAlign="center">
+          <Icon name="spinner" size="big" loading />
+        </Container>
       </div>
     );
   }
