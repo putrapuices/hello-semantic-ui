@@ -5,7 +5,7 @@ code .
 git init
 git add .
 git commit -m 'first commit'
-git push -f origin master
+git push -f origin main
 git push -u origin master --force
 
 git push --set-upstream origin main
@@ -155,3 +155,12 @@ npm install
 
 npm install --force
  npm audit fix --force
+ =================================
+  ssh-keygen
+  eval $(ssh-agent)
+  ssh-add /d/SyarifChatting/windows (namdirektory)
+  git remote add origin git@github.com:putrapuices/hello-semantic-u
+i.git
+  atau lainnya
+  eval 'ssh-agent -s'
+  
