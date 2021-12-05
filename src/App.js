@@ -72,6 +72,12 @@ class App extends Component {
         <Container textAlign="center">
           <Icon name="spinner" size="big" loading />
         </Container>
+        <Image
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          size="tiny"
+          href="https://google.com"
+          target="_blank"
+        />
       </div>
     );
   }
