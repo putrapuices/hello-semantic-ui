@@ -1,6 +1,14 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import { Button, Container, Divider, Flag, Grid } from "semantic-ui-react";
+import {
+  Button,
+  Container,
+  Divider,
+  Flag,
+  Grid,
+  Header,
+  Image,
+} from "semantic-ui-react";
 
 class App extends Component {
   render() {
@@ -52,7 +60,12 @@ class App extends Component {
             <Flag name="indonesia" />
             <Flag name="palestine" />
           </Grid.Column>
-          <Grid.Column>3</Grid.Column>
+          <Grid.Column>
+            <Header as="h3" color="red">
+              <Image src="https://react.semantic-ui.com/images/avatar/large/patrick.png" />
+              Rahmat Putra
+            </Header>
+          </Grid.Column>
           <Grid.Column>4</Grid.Column>
         </Grid>
       </div>
