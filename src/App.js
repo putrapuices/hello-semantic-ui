@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import { Button, Container, Grid } from "semantic-ui-react";
+import { Button, Container, Divider, Grid } from "semantic-ui-react";
 
 class App extends Component {
   render() {
@@ -38,7 +38,7 @@ class App extends Component {
           natus maxime nostrum voluptatem similique minima.*30
         </Container>
         <h1>Selamat Datnag React Sematic UI</h1>
-
+        <Divider horizontal>Batas</Divider>
         <Grid container columns={4}>
           <Grid.Column>
             <Button primary>Button Pertama</Button>
