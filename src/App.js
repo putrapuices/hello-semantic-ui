@@ -9,6 +9,7 @@ import {
   Header,
   Icon,
   Image,
+  Input,
 } from "semantic-ui-react";
 
 class App extends Component {
@@ -77,6 +78,11 @@ class App extends Component {
           size="tiny"
           href="https://google.com"
           target="_blank"
+        />
+        <Input
+          type="password"
+          placeholder="Search"
+          icon={<Icon name="search" />}
         />
       </div>
     );
